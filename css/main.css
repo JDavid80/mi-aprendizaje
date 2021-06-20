@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+div#content-main {
+    /* background-color: aquamarine; */
+    width: 70%;
+    margin: 5em auto;
+}
+h1 {
+    text-align: center;
+}
+p {
+    margin: 1em auto;
+    text-align: justify;
+    font-size: 1.8em;
+}
+ul {
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: rgb(48,48,48);
+    font-size: 1.5em;
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
