@@ -10,10 +10,13 @@ div#content-main {
 h1 {
     text-align: center;
 }
+.centrado {
+    text-align: center;
+}
 p {
     margin: 1em auto;
     text-align: justify;
-    font-size: 1.8em;
+    font-size: 1.7em;
 }
 ul {
     margin-top: 1em;
