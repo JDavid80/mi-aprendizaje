@@ -38,6 +38,9 @@ img {
         margin: 5em auto;
     }
     p {
-        font-size: 0.6em;
+        font-size: 1em;
+    }
+    img {
+        width: 100%;
     }
 }
