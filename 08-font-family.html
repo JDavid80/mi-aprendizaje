@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>8 - Font Family</title>
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/ej_08.css">
 </head>
 <body>
     <div id="content-main">
@@ -22,26 +21,28 @@
         <h1>Font - Family</h1>
         <p>Desde el archivo styles.css podemos especificar el tipo de fuente que deseamos utilizar.</p>
         <p>Dos cosas a tener en cuenta:</p>
-        <ol class="estilo-listado">
-            <li class="estilo-items">El orden en que se especifican las fuentes le indica al navegador que fuente usar. Es decir, Si la primera fuente no se encuentra, el navegador utilizara la segunda y si no, finalmente la tercera, la cual se recomienda que sea genérica.
-            Encontramos dos tipos de nombres de familias de fuentes:
-            <ul>
-                <li><strong>Family-name:</strong>times, courier, arial, etc.</li>
-                <li><strong>Generic-family:</strong>serif, sans-serif, monospace.</li>
-            </ul>
+        <ol class="ol-interno">
+            <li class="li-interno">El orden en que se especifican las fuentes le indica al navegador que fuente usar. Es decir, Si la primera fuente no se encuentra, el navegador utilizara la segunda y si no, finalmente la tercera, la cual se recomienda que sea genérica.
+                Encontramos dos tipos de nombres de familias de fuentes:
+                <ul>
+                    <li><strong>Family-name:</strong>times, courier, arial, etc.</li>
+                    <li><strong>Generic-family:</strong>serif, sans-serif, monospace.</li>
+                </ul>
             </li>
-            <li class="estilo-items">El orden en que se especifican las fuentes le indica al navegador que fuente usar. Es decir, Si la primera fuente no se encuentra, el navegador utilizara la segunda y si no, finalmente la tercera, la cual se recomienda que sea genérica.
-            Si el tipo de fuente se compone de dos o más palabras, la fuente debe ir entre comillas. Por Ejemplo: "Courier New2", "Times New Roman", etc., deben ir entre comillas.</li>
+            <li class="li-interno">El orden en que se especifican las fuentes le indica al navegador que fuente usar. Es decir, Si la primera fuente no se encuentra, el navegador utilizara la segunda y si no, finalmente la tercera, la cual se recomienda que sea genérica.
+                <li>
+                Si el tipo de fuente se compone de dos o más palabras, la fuente debe ir entre comillas. Por Ejemplo: "Courier New2", "Times New Roman", etc., deben ir entre comillas.
+            </li>
         </ol>
         <p>
             Las palabras sans-serif vienen del idiomas francés y significan sin serifa (Sin remates, terminales o adornos).
         </p>
         <p>Archivo .css:</p>
-        <img src="img/08a-font-family.png" alt="Font-Family">
+        <img class="img-ancho-total" src="img/08a-font-family.png" alt="Font-Family">
         <p>El código html quedaría así:</p>
-        <img src="img/08b-font-family.png" alt="Font-Family">
+        <img class="img-ancho-total" src="img/08b-font-family.png" alt="Font-Family">
         <p>Y la página web quedaría así</p>
-        <img src="img/08c-font-family.png" alt="Font-Familiy"><br><br>
+        <img class="img-ancho-total" src="img/08c-font-family.png" alt="Font-Familiy"><br><br>
         <h2>Utilizando fuentes de Google-Fonts</h2>
         <h3>Opción 1</h3>
         <p>
@@ -50,32 +51,32 @@
         <p>En el siguiente ejemplo vamos a utuilizar dos fuentes. Una llamada Patrick head y otra llamada fugaz-one:</p>
         <p>Lo primero que hacemos es seleccionar el tipo de fuente. Vamos al sitio web <a class="url-texto" href="https://fonts.google.com/"><strong>https://fonts.google.com/</strong></a></p>
         <p>Paso seguido seleccionamos nuestro tipo de fuente y  procedemos a copiar el enlace para el head y como debemos llamar la fuente desde el archivo .css</p>
-        <img src="img/08d-font-family.png" alt="Font-Familiy">
-        <img src="img/08e-font-family.png" alt="Font-Familiy">
+        <img class="img-ancho-total" src="img/08d-font-family.png" alt="Font-Familiy">
+        <img class="img-ancho-total" src="img/08e-font-family.png" alt="Font-Familiy">
         <p>Copiamos el código en el head. En este caso estoy llamado dos fuentes de forma diferente. Una a través de un link y la otra a través de un style. Desde el css juntas se invocan de la misma forma:</p>
-        <img src="img/08f-font-family.png" alt="Font-Familiy">
+        <img class="img-ancho-total" src="img/08f-font-family.png" alt="Font-Familiy">
         <p>Creamos la clase en css, tal como aparece en el sitio web:</p>
-        <img src="img/08g-font-family.png" alt="Font-Familiy">
+        <img class="img-ancho-total" src="img/08g-font-family.png" alt="Font-Familiy">
         <h3>Opción 2:</h3>
         <p>Podemos descargar la fuente para llamarla desde nuestro sitio. Si vamos a utilizar varias fuentes, esta es una buena opción por rendimiento y también es la opción que debemos escoger si nuestra aplicación web se va a ejecutar en un ambiente desconectado.</p>
-        <img src="img/08h-font-family.png" alt="Font-Familiy">
+        <img class="img-ancho-total"src="img/08h-font-family.png" alt="Font-Familiy">
         <p>
         En el siguiente sitio podemos obtener todo el código para agregar nuestra fuente en el servidor:</p><a href="https://google-webfonts-helper.herokuapp.com/"><strong>https://google-webfonts-helper.herokuapp.com/</a></strong>
-        <img src="img/08i-font-family.png" alt="Font-Familiy">
+        <img class="img-ancho-total" src="img/08i-font-family.png" alt="Font-Familiy">
         <p>Descargamos el archivo, lo descomprimimos y lo guardamos en la carpeta fonts:</p>
         <p>Copiamos todo el código que aparece en la imagen en el archivo .css</p>
-        <img src="img/08j-font-family.png" alt="Font-Familiy">
+        <img class="img-ancho-total" src="img/08j-font-family.png" alt="Font-Familiy">
         <p>En la hoja de estilos agregamos el código:</p>
-        <img src="img/08k-font-family.png" alt="Font-Familiy">
+        <img class="img-ancho-total" src="img/08k-font-family.png" alt="Font-Familiy">
         <p>
         	Para llamar al estilo, creamos una clase y en la propiedad font-family, ponemos la misma que se encuentra en el código font-face, cómo se ve en la imagen anterior.
         </p>
         <p>Podríamos crear varias clases para diferentes estilos de la misma fuente:</p>
         <img src="img/08l-font-family.png" alt="Font-Familiy">
         <p>Archivo html:</p>
-        <img src="img/08m-font-family.png" alt="Font-Familiy">
+        <img class="img-ancho-total" src="img/08m-font-family.png" alt="Font-Familiy">
         <p>Archivo css:</p>
-        <img src="img/08n-font-family.png" alt="Font-Familiy">
+        <img class="img-ancho-total" src="img/08n-font-family.png" alt="Font-Familiy">
     </div>
 </body>
 </html>

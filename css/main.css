@@ -25,6 +25,16 @@ ul {
 li {
     list-style: none;
 }
+.ul-interno, .ol-interno {
+    font-size: 1.7em;
+    margin-left: 1em;
+    
+}
+.li-interno {
+    list-style: decimal;
+    list-style-position: outside;
+    
+}
 a {
     text-decoration: none;
     color: rgb(48,48,48);
@@ -43,7 +53,7 @@ img {
     p {
         font-size: 1em;
     }
-    img {
+    .img-ancho-total {
         width: 100%;
     }
 }
